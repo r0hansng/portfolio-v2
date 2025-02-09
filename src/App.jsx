@@ -6,6 +6,7 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Home } from './sections/Home/Home'
 import { About } from './sections/About/About'
 import { Experience } from './sections/Experience/Experience'
+import { Contact } from './sections/Contact/contact'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Home />
         <About />
         <Experience />
+        <Contact />
       </div>
       <Footer />
     </>

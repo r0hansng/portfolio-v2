@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { Button } from '../../components/Button/Button';
+import { ExperienceCard } from '../../components/Experience_Cards/ExperienceCard';
 
 export const Experience = () => {
     const { ref, inView } = useInView({
@@ -18,6 +19,7 @@ export const Experience = () => {
                 className="w-full flex flex-col items-center justify-center mt-[200px]">
                 <h1 className="text-4xl font-bold mb-7">My Projects</h1>
                 <Button text="More Projects" href=""/>
+                <ExperienceCard />
             </motion.div>
         </>
     )
