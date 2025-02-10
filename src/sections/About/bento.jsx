@@ -10,7 +10,7 @@ import {
 import { GrGithub, GrMailOption } from "react-icons/gr";
 import '../../global.css'
 import GlobeComponent from './Globe';
-import '../../../public/python.png'
+import '../../public/python.png'
 import { Button } from '../../components/Button/Button';
 
 function BentoGrid() {
