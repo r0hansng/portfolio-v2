@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import { FaCircle, FaDownload } from "react-icons/fa6";

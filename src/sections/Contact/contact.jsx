@@ -4,6 +4,8 @@ import React from 'react'
 import { Button } from "../../components/Button/Button";
 import { FaPaperPlane } from "react-icons/fa";
 import SubmitBtn from "./submit-btn";
+import { Textarea } from "../../components/Textarea/Textarea";
+import { Input } from "../../components/Input/Input";
 
 export const Contact = () => {
     const { ref, inView } = useInView({
@@ -35,18 +37,8 @@ export const Contact = () => {
                         </a>
                     </span>
                 </p>
-                {/* <form
+                <form
                     className="flex flex-col gap-3"
-                    action={async (formData) => {
-                        const { data, error } = await sendEmail(formData);
-
-                        if (error) {
-                            toast.error(error);
-                            return;
-                        }
-
-                        toast.success("Email sent successfully!");
-                    }}
                 >
                     <Input
                         name="email"
@@ -60,8 +52,8 @@ export const Contact = () => {
                         className="min-h-[150px]"
                         required
                     />
-                </form> */}
-                <SubmitBtn />
+                    <SubmitBtn />
+                </form>
             </motion.div>
         </>
     )

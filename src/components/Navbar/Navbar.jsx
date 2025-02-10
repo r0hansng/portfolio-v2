@@ -19,25 +19,25 @@ export const Navbar = () => {
                     </a>
                     <div className="sm:flex hidden items-center gap-5">
                         <a
-                            to="/"
+                            href="/"
                             className="text-sm hover:text-gray-400 cursor-pointer"
                         >
                             Projects
                         </a>
                         <a
-                            to="/"
+                            href="#experience"
                             className="text-sm hover:text-gray-400 cursor-pointer"
                         >
                             Experience
                         </a>
                         <a
-                            to="/"
+                            href="/"
                             className="text-sm hover:text-gray-400 cursor-pointer"
                         >
                             About Me
                         </a>
                         <a
-                            to="/"
+                            href="/#contact"
                             className="text-sm hover:text-gray-400 cursor-pointer"
                         >
                             Contact
@@ -46,21 +46,21 @@ export const Navbar = () => {
                 </div>
                 <div className="sm:flex hidden items-center sm:gap-5 gap-3">
                     <a
-                        to="https://github.com/MayankUghade"
+                        href="https://github.com/r0hansng"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <FaGithub className="text-2xl" />
                     </a>
                     <a
-                        to="https://www.aedin.com/in/mayank-ughade-63aab7229/"
+                        href="https://www.linkedin.com/in/rohansng/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <FaLinkedin className="text-2xl" />
                     </a>
                     <a
-                        to="https://x.com/MayankUghade3"
+                        href="https://x.com/r0hansng"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

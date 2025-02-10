@@ -17,8 +17,7 @@ export const Experience = () => {
                 animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 20 }}
                 transition={{ ease: "easeOut", duration: 0.5 }}
                 className="w-full flex flex-col items-center justify-center mt-[200px]">
-                <h1 className="text-4xl font-bold mb-7">My Projects</h1>
-                <Button text="More Projects" href=""/>
+                <h1 className="text-4xl font-bold mb-7">My Experience</h1>
                 <ExperienceCard />
             </motion.div>
         </>

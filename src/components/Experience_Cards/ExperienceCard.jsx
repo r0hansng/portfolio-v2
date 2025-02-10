@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ExperienceCard = (props) => {
+export const ExperienceCard = () => {
     const experiencesData = [
         {
             title: "Computer-Science Degree",
@@ -15,7 +15,7 @@ export const ExperienceCard = (props) => {
         <>
 
             <section className="w-full flex flex-col gap-10 items-center justify-center scroll-mt-28 py-[120px]">
-                <div className="flex flex-col gap-10 w-[900px]">
+                <div className="flex flex-col gap-10 max-w-[900px]">
                     {experiencesData.map((items, index) => (
                         <div key={index}>
                             <div className=" p-5 w-full border border-gray-800 rounded-lg">

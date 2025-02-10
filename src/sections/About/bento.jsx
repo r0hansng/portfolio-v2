@@ -38,7 +38,7 @@ function BentoGrid() {
                             </div>
                             <div className="flex flex-col gap-5 mt-5">
                                 <a
-                                    href="https://github.com/MayankUghade"
+                                    href="https://github.com/r0hansng"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2"
@@ -47,7 +47,7 @@ function BentoGrid() {
                                     <h1 className="text-sm">Github</h1>
                                 </a>
                                 <a
-                                    href="https://www.linkedin.com/in/mayank-ughade-63aab7229/"
+                                    href="https://www.linkedin.com/in/rohansng/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2"
@@ -56,7 +56,7 @@ function BentoGrid() {
                                     <h1 className="text-sm">LinkedIn</h1>
                                 </a>
                                 <a
-                                    href="https://x.com/MayankUghade3"
+                                    href="https://x.com/r0hansng"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2"
@@ -65,7 +65,7 @@ function BentoGrid() {
                                     <h1 className="text-sm">Twitter</h1>
                                 </a>
                                 <a
-                                    href="https://www.instagram.com/mayank_ughade/"
+                                    href="https://www.instagram.com/r0hansng"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2"
@@ -74,7 +74,7 @@ function BentoGrid() {
                                     <h1 className="text-sm">Instagram</h1>
                                 </a>
                                 <a
-                                    href="mailto:mayank14ughade@gmail.com"
+                                    href="mailto:contact.me.rohansingh@gmail.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2"
@@ -91,7 +91,7 @@ function BentoGrid() {
                 <div className="p-2 md:w-2/3 w-full h-64">
                     <div className="h-full rounded-lg flex items-center justify-center border border-gray-800">
                         {/* Scrolling languages container */}
-                        <div className="relative overflow-hidden w-[300px] sm:w-[450px] md:w-[500px] lg:w-full">
+                        <div className="relative overflow-hidden w-[300px] sm:w-[450px] md:w-[500px]">
                             {/* Scrolling languages section upper */}
                             <div className="flex w-full flex-col items-center justify-center overflow-hidden bg-background gap-4 md:gap-10">
                                 {/*  */}
