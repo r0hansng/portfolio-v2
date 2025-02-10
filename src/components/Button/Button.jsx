@@ -5,7 +5,7 @@ import { FaCircle, FaDownload } from "react-icons/fa6";
 export const Button = ({ href, text, icon: Icon }) => {
     return (
         <>
-            <button className="flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background h-10 px-4 py-2 bg-white text-black hover:">
+            <button className="flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background h-10 px-4 py-2 bg-white text-black hover:bg-gray-300 transition-all duration-300 cursor-pointer">
                 {Icon && <Icon className="mr-2" />}
                 <a
                     href={href}
