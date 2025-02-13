@@ -8,3 +8,8 @@ html, body {
   color: #fff;
   scroll-behavior: smooth;
 }
+
+:root {
+  --emerald-500: #10b981; 
+  --emerald-600: #059669; 
+}

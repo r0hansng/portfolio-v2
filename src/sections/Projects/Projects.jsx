@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
-import { ProjectCard } from './ProjectCard';
+import ProjectCard from './ProjectCard';
 
 export const Projects = () => {
     const projectsData = [
@@ -28,7 +28,7 @@ export const Projects = () => {
           className="w-full flex flex-col items-center justify-center mt-[200px]"
         >
           <h1 className="text-4xl font-bold mb-7">My Projects</h1>
-          <div className="flex flex-wrap gap-5 items-center justify-center ">
+          <div className="flex flex-wrap items-center justify-center gap-5 ">
             {projectsData.map((data, index) => (
               <ProjectCard key={index} data={data} />
             ))}

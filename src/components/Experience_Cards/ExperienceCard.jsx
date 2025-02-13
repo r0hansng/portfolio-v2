@@ -8,25 +8,9 @@ export const ExperienceCard = () => {
             location: "Delhi, India",
             organization: "Newton School of Technology",
             description:
-                "I have just begun my journey in computer engineering and am currently in my freshman year.",
+                "I have recently started my journey in computer engineering and am currently in my freshman year. I'm eager to learn, explore new technologies, and build a strong foundation in this field. Excited for the challenges and opportunities ahead!",
             date: "2024 - Present",
         },
-        {
-            title: "Front-End Developer Intern",
-            location: "Mumbai, India",
-            organization: "Prodigy Infotech",
-            description:
-              "During my internship as a Front-end Developer at a Mumbai-based company, I had the opportunity to apply the React skills I acquired from YouTube tutorials in real-world projects. I actively contributed to the creation of their main webpage, gaining valuable hands-on experience in web development.",
-            date: "May 2023 - July 2023",
-          },
-          {
-            title: "Freelance Front-End Developer",
-            location: "Remote",
-            organization: "Self-Employed",
-            description:
-              "As a freelance front-end developer, I specialize in creating dynamic and visually appealing landing pages. My work involves using modern technologies to deliver responsive and user-friendly designs that help businesses enhance their online presence.",
-            date: "Ongoing",
-          },
     ];
     return (
         <>
