@@ -8,9 +8,9 @@ export const Projects = () => {
         {
             title: "Dev Union",
             description: "Dev Union is a full-stack app enabling users to create chat rooms and collaborate on projects with real-time video calls and screen-sharing.",
-            tags: "",
-            githubLink: "",
-            liveLink: "",
+            tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Prisma"],
+            githubLink: "https://github.com/MayankUghade/Code-Together",
+            liveLink: "https://dev-union.vercel.app/",
             imageUrl: "https://mayank-ughade.vercel.app/dev-union.png",
         },
     ];

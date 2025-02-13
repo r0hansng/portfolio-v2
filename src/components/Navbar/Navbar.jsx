@@ -15,7 +15,7 @@ export const Navbar = () => {
             <div className="flex items-center justify-between p-5 max-w-7xl mx-auto w-full">
                 <div className="flex items-center gap-5">
                     <a href="/">
-                        <img src="../../public/letter-r.png" alt="Logo" width={27} height={27} style={{ borderRadius: "4px" }} />
+                        <img src="src/public/letter-r.png" alt="Logo" width={27} height={27} style={{ borderRadius: "4px" }} />
                     </a>
                     <div className="sm:flex hidden items-center gap-5">
                         <a

@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import { Button } from '../../components/Button/Button';
 import { ExperienceCard } from '../../components/Experience_Cards/ExperienceCard';
 
 export const Experience = () => {

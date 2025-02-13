@@ -10,8 +10,7 @@ import {
 import { GrGithub, GrMailOption } from "react-icons/gr";
 import '../../global.css'
 import GlobeComponent from './Globe';
-import '../../public/python.png'
-import { Button } from '../../components/Button/Button';
+import Button from '../../components/Button/Button';
 
 function BentoGrid() {
     return (
@@ -106,20 +105,22 @@ function BentoGrid() {
                     </div>
                 </div>
                 <div className="p-2 md:w-2/3 w-full h-64">
-                <div className="h-full rounded-lg flex items-center justify-center border border-gray-800">
-                    <div className="flex flex-col w-full h-full p-5">
-                        <div className="flex items-center gap-2 mb-10">
-                            <FaBookBookmark />
-                            <h1 className="text-sm text-gray-400">Currently Learning</h1>
-                        </div>
-                        <div className="flex w-full items-center justify-center">
-                            <img src="python.png" width={100}/>
+                    <div className="h-full rounded-lg flex items-center justify-center border border-gray-800">
+                        <div className="flex flex-col w-full h-full p-5">
+                            <div className="flex items-center gap-2 mb-10">
+                                <FaBookBookmark />
+                                <h1 className="text-sm text-gray-400">Currently Learning</h1>
+                            </div>
+                            <div className="flex w-full items-center justify-center">
+                                <img src="src/public/python.png" width={100} />
+                            </div>
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
-            <Button href="" text="More About Me"/>
+            <a href="/about_me">
+                <Button className="bg-white text-black cursor-pointer hover:bg-gray-200 duration-300" variant={"default"}>More About Me</Button>
+            </a>
         </div>
     )
 }

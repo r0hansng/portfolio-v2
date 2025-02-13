@@ -2,8 +2,9 @@
 
 import React, { forwardRef } from "react";
 import { cn } from "../../utils/cn";
+import PropTypes from "prop-types"
 
-export const Input = forwardRef(({ className, type, ...props }, ref) => {
+function Input({ className, type, ...props }, ref) {
   return (
     <input
       type={type}
@@ -15,6 +16,13 @@ export const Input = forwardRef(({ className, type, ...props }, ref) => {
       {...props}
     />
   );
-});
+};
 
 Input.displayName = "Input";
+
+Input.propTypes = {
+  className: PropTypes.string,
+  type: PropTypes.string,
+}
+
+export default Input;
