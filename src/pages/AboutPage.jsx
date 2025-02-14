@@ -3,10 +3,9 @@ import { IoLogoHtml5, IoLogoPython } from "react-icons/io5";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaGitAlt } from "react-icons/fa6";
 import {
-  SiFramer,
   SiTailwindcss,
+  SiCplusplus
 } from "react-icons/si";
-import { SiCplusplus } from "react-icons/si";
 import { motion } from 'framer-motion'
 
 const skills = [
@@ -37,6 +36,10 @@ const skills = [
   {
     name: "C++",
     icon: <SiCplusplus className="text-4xl" />
+  },
+  {
+    name: "TailwindCSS",
+    icon: <SiTailwindcss className="text-4xl" />
   },
 ]
 
