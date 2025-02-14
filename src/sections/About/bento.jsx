@@ -5,7 +5,7 @@ import {
     FaLink,
     FaLinkedin,
     FaLocationDot,
-    FaTwitter,
+    FaXTwitter,
 } from "react-icons/fa6";
 import { GrGithub, GrMailOption } from "react-icons/gr";
 import '../../global.css'
@@ -60,7 +60,7 @@ function BentoGrid() {
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2"
                                 >
-                                    <FaTwitter className="md:text-3xl text-2xl" />
+                                    <FaXTwitter className="md:text-3xl text-2xl" />
                                     <h1 className="text-sm">Twitter</h1>
                                 </a>
                                 <a
