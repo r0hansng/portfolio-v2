@@ -39,5 +39,5 @@ Badge.defaultProps = {
   className: "",
   variant: "default",
 };
-
 export default { Badge, badgeVariants }
+

@@ -56,11 +56,11 @@ function AboutPage() {
         <div className="border-t border-gray-800 p-3 flex md:flex-row flex-col gap-10 items-center">
           <div>
             <p className="mt-5">
-              I'm an 18-year-old college freshman who loves building web applications and solving competitive programming challenges. I started coding in Java back in 9th grade, and since then, I’ve expanded my skills to JavaScript, HTML, CSS, Python, and C++, crafting projects that merge creativity with functionality.
+              I&apos;m an 18-year-old college freshman who loves building web applications and solving competitive programming challenges. I started coding in Java back in 9th grade, and since then, I&apos;ve expanded my skills to JavaScript, HTML, CSS, Python, and C++, crafting projects that merge creativity with functionality.
             </p>
 
             <p className="mt-5 mb-10">
-              Beyond coding, I enjoy playing guitar, working out, and exploring nature—balancing my passion for tech with real-world experiences. Whether it's developing high-performance web apps or tackling complex problems, I’m always pushing myself to learn, grow, and innovate.
+              Beyond coding, I enjoy playing guitar, working out, and exploring nature—balancing my passion for tech with real-world experiences. Whether it&apos;s developing high-performance web apps or tackling complex problems, I&apos;m always pushing myself to learn, grow, and innovate.
             </p>
 
             <h1 className="font-bold text-3xl mb-2">My Tech Stack</h1>

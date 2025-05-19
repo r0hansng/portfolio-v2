@@ -1,9 +1,9 @@
-"use client";
 import React from 'react';
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import '../../global.css';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom'
+import { Link as ScrollLink } from 'react-scroll';
 
 export const Navbar = () => {
     return (
@@ -25,24 +25,24 @@ export const Navbar = () => {
                             >
                                 Projects
                             </Link>
-                            <Link
-                                to="/#experience"
+                            <ScrollLink
+                                to="experience"
                                 className="text-sm cursor-pointer hover:text-gray-400"
                             >
                                 Experience
-                            </Link>
+                            </ScrollLink>
                             <Link
                                 to="/about"
                                 className="text-sm cursor-pointer hover:text-gray-400"
                             >
                                 About Me
                             </Link>
-                            <Link
-                                to="/#contact"
+                            <ScrollLink
+                                to="contact"
                                 className="text-sm cursor-pointer hover:text-gray-400"
                             >
                                 Contact
-                            </Link>
+                            </ScrollLink>
                         </div>
                     </div>
                     <div className="items-center hidden gap-3 sm:flex sm:gap-5">

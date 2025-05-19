@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import React from 'react'
-import Button from "../../components/Button/Button";
-import { FaPaperPlane } from "react-icons/fa";
 import SubmitBtn from "./submit-btn";
 import { Textarea } from "../../components/Textarea/Textarea";
 import Input from "../../components/Input/Input";

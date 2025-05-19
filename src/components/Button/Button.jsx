@@ -1,5 +1,3 @@
-"use client"
-
 import React from 'react'
 import { cva } from "class-variance-authority"
 import { cn } from "../../utils/cn"
@@ -36,9 +34,9 @@ const ButtonVariants = cva(
 )
 
 
-function Button({ className, variant, size, asChild = false, ...props }, ref) {
+function Button({ className, variant, size, asChild = false, ...props }) {
     const Comp = asChild ? Slot : "button";
-    return <Comp className={cn(ButtonVariants({ variant, size, className }))} ref={ref} {...props} />;
+    return <Comp className={cn(ButtonVariants({ variant, size, className }))} {...props} />;
 };
 
 

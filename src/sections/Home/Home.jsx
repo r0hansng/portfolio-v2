@@ -1,4 +1,3 @@
-"use client"
 import React from 'react'
 import { FaCircle, FaDownload } from "react-icons/fa6";
 import { GrContactInfo } from "react-icons/gr";
