@@ -16,7 +16,7 @@ export const Navbar = () => {
                 <div className="flex items-center justify-between w-full p-5 mx-auto max-w-7xl">
                     <div className="flex items-center gap-5">
                         <a href="/">
-                            <img src="src/public/letter-r.png" alt="Logo" width={27} height={27} style={{ borderRadius: "4px" }} />
+                            <img src="/assets/images/favicon.png" alt="Logo" width={27} height={27} style={{ borderRadius: "4px" }} />
                         </a>
                         <div className="items-center hidden gap-5 sm:flex">
                             <Link

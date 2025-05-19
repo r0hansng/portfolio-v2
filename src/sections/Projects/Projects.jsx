@@ -2,18 +2,9 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
 import ProjectCard from './ProjectCard';
+import { projectsData } from '../../data/projectsData';
 
 export const Projects = () => {
-    const projectsData = [
-        {
-            title: "Dev Union",
-            description: "Dev Union is a full-stack app enabling users to create chat rooms and collaborate on projects with real-time video calls and screen-sharing.",
-            tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Prisma"],
-            githubLink: "https://github.com/MayankUghade/Code-Together",
-            liveLink: "https://dev-union.vercel.app/",
-            imageUrl: "https://mayank-ughade.vercel.app/dev-union.png",
-        },
-    ];
 
     const { ref, inView } = useInView({
         triggerOnce: true,
