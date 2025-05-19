@@ -79,7 +79,7 @@ function AboutPage() {
             </div>
           </div>
           <img
-            src={"https://rohan-singh.vercel.app/src/Styles/Pictures/GitHub%20Profile%20Picture.png"}
+            src="https://rohan-singh.vercel.app/src/Styles/Pictures/GitHub%20Profile%20Picture.png"
             alt="Profile"
             width={380}
             height={300}
