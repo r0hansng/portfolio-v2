@@ -30,7 +30,8 @@ export const Home = () => {
                     <p className="text-xs text-center text-gray-400 sm:text-sm">I’m passionate about crafting innovative frontend web applications, blending<br />creativity and functionality to deliver seamless and visually engaging user experiences.</p>
                     <div className="flex flex-col items-center gap-2 sm:flex-row sm:gap-5">
                         <Button asChild className={"bg-white text-black cursor-pointer hover:bg-gray-200 duration-300"}>
-                            <a href=""
+                            <a
+                                href="/Rohan_Resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

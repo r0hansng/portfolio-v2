@@ -91,7 +91,7 @@ function AboutPage() {
           <h1 className="p-2">ReactJs</h1>
           <h1 className="p-2">Javascript</h1>
           <h1 className="p-2">Deployed on vercel</h1>
-          <h1 className="p-2">Shadcn</h1>
+          {/* <h1 className="p-2">Shadcn</h1> */}
           <h1 className="p-2">Aceternity UI</h1>
           <h1 className="p-2">Tailwind Css</h1>
         </div>

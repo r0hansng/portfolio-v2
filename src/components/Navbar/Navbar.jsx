@@ -4,16 +4,24 @@ import '../../global.css';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll';
+import { useNavigate } from 'react-router-dom';
 
 export const Navbar = () => {
+
+    const navigate = useNavigate();
+
+    const handleScrollNavigation = (id) => {
+        navigate(`/?scrollTo=${id}`);
+    };
+
     return (
         <>
             <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ ease: "easeOut", duration: 0.5 }}
-                className="relative z-50 bg-black bg-opacity-50 border-b border-gray-900">
-                <div className="flex items-center justify-between w-full p-5 mx-auto max-w-7xl">
+                className="relative z-50 bg-black/50 border-b border-gray-900">
+                <div className="flex items-center justify-between p-5 mx-auto lg:container">
                     <div className="flex items-center gap-5">
                         <a href="/">
                             <img src="/assets/images/favicon.png" alt="Logo" width={27} height={27} style={{ borderRadius: "4px" }} />
@@ -25,24 +33,18 @@ export const Navbar = () => {
                             >
                                 Projects
                             </Link>
-                            <ScrollLink
-                                to="experience"
-                                className="text-sm cursor-pointer hover:text-gray-400"
-                            >
+                            <span onClick={() => handleScrollNavigation('experience')} className="text-sm cursor-pointer hover:text-gray-400">
                                 Experience
-                            </ScrollLink>
+                            </span>
                             <Link
                                 to="/about"
                                 className="text-sm cursor-pointer hover:text-gray-400"
                             >
                                 About Me
                             </Link>
-                            <ScrollLink
-                                to="contact"
-                                className="text-sm cursor-pointer hover:text-gray-400"
-                            >
+                            <span onClick={() => handleScrollNavigation('contact')} className="text-sm cursor-pointer hover:text-gray-400">
                                 Contact
-                            </ScrollLink>
+                            </span>
                         </div>
                     </div>
                     <div className="items-center hidden gap-3 sm:flex sm:gap-5">
