@@ -12,6 +12,7 @@ import '../../global.css'
 import GlobeComponent from './Globe';
 import Button from '../../components/Button/Button';
 import MarqueeDemo from './Skills';
+import { Link } from 'react-router-dom';
 
 function BentoGrid() {
   return (
@@ -117,9 +118,9 @@ function BentoGrid() {
           </div>
         </div>
       </div>
-      <a href="/about_me">
+      <Link to="/about">
         <Button className="bg-white text-black cursor-pointer hover:bg-gray-200 duration-300" variant={"default"}>More About Me</Button>
-      </a>
+      </Link>
     </div>
   )
 }
