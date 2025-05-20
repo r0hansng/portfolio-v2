@@ -21,7 +21,7 @@ export const Navbar = () => {
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ ease: "easeOut", duration: 0.5 }}
-                className="relative z-50 bg-black/50 border-b border-gray-800">
+                className="relative z50 bg-black/50 border-b border-gray-800">
                 <div className="flex items-center justify-between p-5 mx-auto lg:container">
                     <div className="flex items-center gap-5">
                         <a href="/">
