@@ -12,7 +12,7 @@ function ProjectPage() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ ease: "easeOut", duration: 0.5 }}
-            className="flex flex-col items-center justify-center p-3 mt-10 ml-25 lg:container"
+            className="flex flex-col items-center justify-center p-3 mt-10 sm:ml-25 lg:container"
         >
             <h1 className="text-3xl font-semibold underline"> More of my projects</h1>
             <div className="flex flex-wrap items-center justify-center gap-5 mt-10">
