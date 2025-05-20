@@ -19,7 +19,7 @@ function HomePage() {
         <Experience />
         <Contact />
       </div>
-      <Outlet />
+      {/* <Outlet /> */}
     </>
   )
 }

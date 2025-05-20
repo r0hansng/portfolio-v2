@@ -12,8 +12,7 @@ export const useScrollToElement = () => {
         if (scrollTo) {
             scroller.scrollTo(scrollTo, {
                 duration: 800,
-                delay: 0,
-                smooth: "easeInOutQuart",
+                delay: 10,
             });
         }
     }, [location]);

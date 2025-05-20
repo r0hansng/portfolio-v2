@@ -20,7 +20,7 @@ export const Spotlight = ({ className, fill }) => {
       </style>
       <svg
         className={cn(
-          "pointer-events-none absolute z-[1] h-[130%] w-[138%] lg:w-[84%]",
+          "pointer-events-none absolute z-[1] h-[130%] w-[138%] lg:w-[84%] opacity-0",
           className
         )}
         style={{

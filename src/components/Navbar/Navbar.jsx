@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Link } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
+import { SmallNav } from '../RetractableNav';
 
 export const Navbar = () => {
 
@@ -20,7 +21,7 @@ export const Navbar = () => {
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ ease: "easeOut", duration: 0.5 }}
-                className="relative z-50 bg-black/50 border-b border-gray-900">
+                className="relative z-50 bg-black/50 border-b border-gray-800">
                 <div className="flex items-center justify-between p-5 mx-auto lg:container">
                     <div className="flex items-center gap-5">
                         <a href="/">
@@ -70,6 +71,7 @@ export const Navbar = () => {
                             <FaXTwitter className="text-2xl" />
                         </Link>
                     </div>
+                    <SmallNav />
                 </div>
             </motion.div>
         </>
