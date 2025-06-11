@@ -26,7 +26,7 @@ export const Projects = () => {
           <ProjectCard key={index} data={data} />
         ))}
       </div>
-      <Link to="/about">
+      <Link to="/projects">
         <Button className="bg-white text-black cursor-pointer hover:bg-gray-200 duration-300 mt-3" variant={"default"}>More Projects</Button>
       </Link>
     </motion.div>
