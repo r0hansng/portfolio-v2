@@ -1,10 +1,12 @@
 import React from 'react'
-import { IoLogoHtml5, IoLogoPython } from "react-icons/io5";
+import { IoLogoHtml5, IoLogoPython, IoLogoNodejs } from "react-icons/io5";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { FaReact, FaGitAlt } from "react-icons/fa6";
 import {
   SiTailwindcss,
-  SiCplusplus
+  SiCplusplus,
+  SiExpress,
+  SiMongodb
 } from "react-icons/si";
 import { motion } from 'framer-motion'
 
@@ -26,6 +28,14 @@ const skills = [
     icon: <FaReact className="text-4xl" />
   },
   {
+    name: "NodeJS",
+    icon: <IoLogoNodejs className="text-4xl" />,
+  },
+  {
+    name: "ExpressJS",
+    icon: <SiExpress className="text-4xl" />,
+  },
+  {
     name: "Git",
     icon: <FaGitAlt className="text-4xl" />
   },
@@ -40,6 +50,10 @@ const skills = [
   {
     name: "TailwindCSS",
     icon: <SiTailwindcss className="text-4xl" />
+  },
+  {
+    name: "MongoDB",
+    icon: <SiMongodb className="text-4xl" />,
   },
 ]
 
@@ -56,7 +70,7 @@ function AboutPage() {
         <div className="border-t border-gray-800 p-3 flex md:flex-row flex-col gap-10 items-center">
           <div>
             <p className="mt-5">
-              I&apos;m an 18-year-old college freshman who loves building web applications and solving competitive programming challenges. I started coding in Java back in 9th grade, and since then, I&apos;ve expanded my skills to JavaScript, HTML, CSS, Python, and C++, crafting projects that merge creativity with functionality.
+              I&apos;m an 18-year-old college freshman who loves building web applications and solving competitive programming challenges. I started coding in Java back in 9th grade, and since then, I&apos;ve expanded my skills to Javascript, HTML/CSS, Python, and C++, crafting projects that merge creativity with functionality.
             </p>
 
             <p className="mt-5 mb-10">
